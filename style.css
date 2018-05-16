@@ -1,0 +1,380 @@
+
+
+
+
+/*----------------*/
+/*common styles*/
+/*----------------*/
+html,{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+.button{
+	padding: 1.1rem 2rem;
+	border-radius: 4px;
+	border:none;
+	margin: .9rem;
+	margin-left: 0;
+	background-color: #69952f;
+	color:#fff;
+	font-size: 1.1rem;
+	font-weight: normal;
+}
+
+/*----------------*/
+/*common styles END here*/
+/*----------------*/
+/*header section start here*/
+/*----------------*/
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+	display: flex;
+	align-items: center;
+	background-color: #83b13b;
+	position: fixed;
+	width:100%;
+
+}
+#logo{
+	display: flex;
+	align-items: center;
+	margin:auto 15px auto 25px;
+	color: #fff;
+	font-size: 2.1rem;
+	font-weight: 900;
+	letter-spacing: -.3rem;
+	font-style: italic;
+}
+#logo a{ color:#fff; }
+.linkNlogo{
+	display: flex;
+	align-items: center;
+}
+.fa-globe{
+	font-size: 1.5rem;
+	margin-right: .3rem;
+}
+.mainNav{
+	display: flex;
+	align-items: center;
+
+}
+.mainNav a{
+	padding:  .8rem 1rem;
+	color: #fff;
+	font-weight: 300;
+}
+.nav2{
+	margin-left: auto;
+}
+
+/*----------------*/
+/*header section end here*/
+/*----------------*/
+/*Banner section start here*/
+/*----------------*/
+#banner{
+	background-image: url(images/sample-bg.jpg);
+	width: 100%;
+	height: 100%;
+	/*height: calc(100vh - 25px);*/
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slogan{
+	display: flex;
+	/*position: relative;*/
+	top:0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin:6rem 0;
+	width: 65%;
+}
+.slogan h1{
+	margin: 0;
+	/*line-height: 1.4;*/
+	font-weight: 300;
+	font-size: 3.75rem;
+}
+.slogan p{
+	font-size: 1.4rem;
+	font-weight: 300;
+}
+.slogan div{
+	display: flex;
+}
+.btnSpacial{
+		font-size: 1.7rem;
+	font-weight: 300;
+	font-style: lighter;
+	background-color:#fff;
+}
+.btnSpacial a{
+
+	background-color:#fff;
+	color:#000;
+}
+.downArrow{
+	border:1px solid rgba(178, 178, 178,.6);
+	border-radius: 100%;
+	margin-top: 2rem;
+}
+.fa-angle-down{
+	color:rgba(178, 178, 178,.6);
+	font-size: 3rem;
+	padding: .17rem .7rem;
+}
+/*----------------*/
+/*Banner section end here*/
+/*----------------*/
+/*Second header start here*/
+/*----------------*/
+
+.secondHeader{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	
+}
+.secondHeader div{
+	display: flex;
+	align-items: center;
+	padding: 0 1.2rem;
+
+}
+.secHeading{
+	font-weight: 300;
+	padding: .6rem 0;
+	padding: .2rem 0;
+	transition: padding .3s, font-size .3s;
+
+}
+.currencyIcon{
+	color:#83b13b;
+	font-size: 1.7rem;
+	padding: 0rem 1.3rem;
+	transition: padding .3s, font-size .3s;
+}
+
+/*style for making second header header stick to after top header*/
+.sticky{
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	background-color: #fff;
+}
+.smlHeading{
+	font-weight: 300;
+    margin: .7.55rem 0;
+	font-size: 1rem;
+	color:#666;
+	transition: color .3s, margin .3s, font-size .3s;
+}
+.smCurrencyIcon{
+	color:#83b13b;
+	font-size: 1.1rem;
+	padding: 0rem 1.3rem;
+	transition: padding .3s, font-size .3s;
+}
+/*----------------*/
+/*Second header end here*/
+/*----------------*/
+/*pay rulls start here*/
+/*----------------*/
+
+#payRulls{
+	display: flex;
+	align-items: center;
+	background-color: #eeeeee;
+	padding: 2.5rem 0;
+	/*justify-content: center;*/
+}
+.payRullsImg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex:1;
+}
+.PayRullsCol{
+	font-weight: 300;
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex:1;
+}
+.PayRullsCol h1{
+	font-size: 2.7rem;
+	font-weight: 300;
+}
+.PayRullsCol p{
+	font-size: 1.1rem;
+	color: #666;
+}
+
+/*------------------*/
+
+
+/*------------------*/
+.paymentsMethod{
+	background-color: #3ba2c2;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+.paymentsMethod1 h1{
+	font-weight: 300;
+	color:#fff;
+}
+.paymentsMethod2{
+	display: flex;
+	width: 95%;
+	justify-content: space-around;
+}
+.paymentsMethod2 img{
+	padding-bottom: 1.6rem;
+	width: 80px;
+	height:45px 
+}
+/*------------------*/
+
+
+/*------------------*/
+#transection{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color:#eceeee;
+}
+#transection p{
+	color:#666;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+#transection h1{
+	color:#444;
+	font-weight: 300;
+	font-size: 2.5rem;
+	margin-top: 4rem;
+	margin-bottom: 0;
+}
+#transection img{
+	margin-top: 60px;
+}
+/*-----------------------------------------*/
+
+#invitation{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#invitation h1{
+	font-weight: 300;
+	font-size: 2rem;
+	color: #444;
+	margin: 3rem 2rem;
+}
+#invitation .button{
+	background-color: #3ba2c2;
+}
+/*-----------------------------------------*/
+footer{
+	display: flex;
+	flex-direction: column;
+	background-color: #373737;
+}
+.mainFootSec{
+	display: flex;
+	justify-content: space-around;
+	background-color: #373737;
+	padding: 0 3rem 4rem 3rem;
+}
+.footerNav{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 3rem 2rem;
+
+}
+.footerNav a{
+	color:#c0c0c0;
+	padding: .1rem 0;
+	font-weight: 300;
+}
+.footerNav .navHeading {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: .5rem;
+	padding-bottom: .4rem;
+	border-bottom: 1px solid #878484;
+}
+.innerFooter{
+	display: flex;
+	flex-direction: column;
+}
+.footSocial{
+	display: flex;
+}
+.footSocial a{
+	padding: .5rem .4rem;
+	font-size: 2.2rem;
+
+}
+.footSocial a .fab{
+	
+	background-color: #fff;
+	border-radius: 50% 8px 10px 50%;
+	/*border:none;*/
+	line-height: 30px;width: 27px;
+
+}
+.footSocial a .fa-youtube-square{color:#cc181e;}
+.footSocial a .fa-facebook-square{color: #3b5998;}
+.footSocial a .fa-twitter-square{color: #65ccef;}
+/*--------------------*/
+.subFooter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #2F2F2F;
+
+}
+.subFooter h2{
+	font-weight: 300;
+	color:#c0c0c0;
+	margin:3rem 1rem 3rem 0;
+}
+.subFooter1 {background-color: #373737;}
+.subFooter1 p{
+	color:#666;
+	padding: 2rem;
+	font-weight: 300;
+	font-size: .8rem;
+}
+.heightedLine{
+	color:#c0c0c0;
+}
+.subFooter1 img{
+	padding: 2rem;
+}
+
